@@ -18,7 +18,7 @@ on:
         description: |
           是否编译 Docker 插件
         required: true
-        default: 'no'
+        default: 'yes'
         type: choice
         options:
           - 'yes'
@@ -26,7 +26,7 @@ on:
       size:
         description: '请输入要编译固件大小 单位(MB)'
         required: true
-        default: '1024'
+        default: '2048'
 
 
 jobs:
